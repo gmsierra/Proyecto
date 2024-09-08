@@ -1,0 +1,246 @@
+/* Encabezado */
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1e2a38;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo para el menú de ciudades */
+.cities-menu {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex; /* Usa flexbox para alinear los elementos en una fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    background-color: #1e2a38;
+    padding: 10px;
+}
+
+.cities-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; /* Añade un poco de espacio alrededor de los enlaces */
+    font-size: 18px;
+    border-right: 1px solid #9ab4d4; /* Añade una línea divisoria entre los enlaces */
+}
+
+.cities-menu a:hover {
+    background-color: #2d495e;
+}
+
+.cities-menu a:last-child {
+    border-right: none; /* Elimina la línea divisoria en el último enlace */
+}
+
+/* Estilo para la sección Hero */
+.hero-section {
+    background-color: #e0f7fa; /* Color suave de fondo */
+    color: rgb(255, 255, 255);
+    padding: 85px 100px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+}
+
+.hero-section h1 { /* Título */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #333; /* Ajusta el color del texto según sea necesario */
+}
+
+.hero-section p { /* Contenido */
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 1300px;
+    margin: 0 auto; /* Centra el párrafo horizontalmente */
+    text-align: justify; /* Justifica el texto */
+    color: #333; /* Ajusta el color del texto según sea necesario */
+}
+
+/* Estilo para las imágenes en la galería */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    margin: 20px 0;
+}
+
+.galeria img {
+    width: 300px; /* Ajusta el ancho de las imágenes */
+    height: 200px; /* Ajusta la altura de las imágenes */
+    object-fit: cover; /* Mantiene la proporción y cubre el contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra de la imagen */
+    transition: transform 0.3s ease; /* Transición para el efecto hover */
+}
+
+.galeria img:hover {
+    transform: scale(1.05); /* Aumenta un poco el tamaño al pasar el cursor */
+}
+
+
+/* Secciones con imágenes y texto intercalados */
+.section {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px 20px;
+}
+
+.section h2 {
+    color: #274c76;
+}
+
+.section .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+    gap: 40px;
+}
+
+.section .content img {
+    width: 300px;
+    border-radius: 8px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.section .content img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos específicos para la sección de inicio */
+.section-inicio {
+    background-color: #f0f8ff; /* Color de fondo para la sección de inicio */
+    border-bottom: 2px solid #ddd; /* Línea divisoria */
+}
+
+/* Estilos específicos para la sección de cultura */
+.section-capital {
+    background-color: #ffecd6; /* Color de fondo para la sección de cultura */
+    border-bottom: 2px solid #ddd;
+}
+
+/* Estilo para el texto en la sección de cultura */
+#CULTURA p {
+    max-width: 800px; /* Limita el ancho máximo del texto */
+    margin: 0 auto; /* Centra el párrafo horizontalmente */
+    font-size: 16px; /* Tamaño del texto */
+    line-height: 1.6; /* Altura de línea para el texto */
+    color: #333; /* Color del texto */
+    text-align: justify; /* Centra el texto */
+}
+
+/* Estilo para las imágenes en la sección de cultura */
+
+/* Estilos específicos para la sección de cultura */
+.section#CULTURA {
+    background-color: #edfeed; /* Color de fondo para la sección de cultura */
+    border-bottom: 2px solid #ddd; /* Línea divisoria */
+}
+
+.cultura-images {
+    display: flex;
+    gap: 10px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    margin-bottom: 20px; /* Espacio debajo de las imágenes */
+}
+
+.cultura-images img {
+    width: 300px; /* Ajusta el ancho de las imágenes */
+    height: 200px; /* Ajusta la altura de las imágenes */
+    object-fit: cover; /* Mantiene la proporción y cubre el contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: transform 0.3s ease; /* Transición para el efecto hover */
+}
+
+.cultura-images img:hover {
+    transform: scale(1.05); /* Aumenta un poco el tamaño al pasar el cursor */
+}
+
+
+/* Sección de contacto */
+#CONTACTO {
+    background-color: #cee6ff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+}
+
+#CONTACTO form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#CONTACTO input, #CONTACTO textarea {
+    padding: 10px;
+    font-size: 12px;
+    width: 100%;
+    max-width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#CONTACTO button {
+    padding: 10px; /* Ajusta el padding para que sea consistente con los campos */
+    font-size: 15px; /* Asegúrate de que el tamaño del texto coincida con el de los campos */
+    width: 20%; /* Asegura que el botón ocupe el ancho completo del formulario */
+    max-width: 400px; /* Aplica el mismo máximo ancho que a los campos */
+    background-color: #1f3c5d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box; /* Asegura que el padding y el ancho se manejen correctamente */
+}
+
+#CONTACTO button:hover {
+    background-color: #0b4a8a;
+}
+
+/* Pie de página */
+footer {
+    background-color: #1e2a38;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-info {
+    margin-bottom: 10px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-social img {
+    width: 30px;
+    height: 28px;
+    transition: transform 0.3s;
+}
+
+.footer-social img:hover {
+    transform: scale(1.1);
+}
